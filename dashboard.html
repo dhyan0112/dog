@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- Include CSS styles if needed -->
+</head>
+<body>
+    <header>
+        <!-- Navbar or other header content -->
+    </header>
+    <main>
+        <section id="dashboard-section">
+            <h2>Dashboard</h2>
+            <div id="filter-options">
+                <label for="filter-gender">Filter by Gender:</label>
+                <select id="filter-gender">
+                    <option value="all">All</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <label for="search-name">Search by Name:</label>
+                <input type="text" id="search-name" placeholder="Search...">
+                <button id="sort-age-button">Sort by Age</button>
+            </div>
+            <div id="dog-cards">
+                <!-- Dog cards will be dynamically added here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content -->
+    </footer>
+    <script src="dashboard.js"></script> <!-- Include JavaScript file -->
+</body>
+</html>
